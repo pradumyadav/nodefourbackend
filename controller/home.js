@@ -4,7 +4,7 @@ const auth = require("../auth/auth")
 
 const home =require("express").Router()
 
-home.get("/",auth,(req,res)=>{
+home.get("/home",(req,res)=>{
     res.send("This is our home page")
 })
 
